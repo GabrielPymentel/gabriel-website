@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Pimentel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+
+</head>
+<body>
+    
+    <div class="circuit-pattern"></div>
+    <div class="binary-background" id="binaryBackground"></div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Gab</a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#hardware">Hardware</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Técnico em Informática</p>
+                <h1 class="hero-title">Gabriel Pimentel</h1>
+                <p class="hero-description">
+                    Técnico em informática em formação contínua, com conhecimentos em hardware, software e IoT.
+                </p>
+                
+                <div class="hero-highlight">
+                    <i class="fas fa-microchip"></i> Hardware | <i class="fas fa-code"></i> Software | <i class="fas fa-wifi"></i> IoT
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-laptop-code"></i> Ver Projetos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-tools"></i> Serviços
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hardware-visual">
+                <div class="motherboard">
+                    <img src="assets/gab.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="section-divider"></div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou Técnico em Informática com formação completa que abrange desde a montagem e manutenção de hardware até o desenvolvimento de software. Minha abordagem é holística: entendo como cada componente físico interage com o software para criar sistemas eficientes.
+                    </p>
+                    <p>
+                        Com experiência prática em manutenção de computadores, consigo diagnosticar e resolver problemas tanto no nível físico quanto lógico. Esta visão integral me permite desenvolver soluções mais robustas e otimizadas, especialmente em projetos de IoT onde hardware e software precisam funcionar em perfeita harmonia.
+                    </p>
+                    <p>
+                        Meu objetivo é continuar evoluindo nesta intersecção entre hardware e software, criando soluções inovadoras que resolvam problemas reais de forma eficiente e acessível.
+                    </p>
+                </div>
+                
+                <div class="expertise-areas">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3 class="expertise-title">Hardware</h3>
+                        <ul class="expertise-list">
+                            <li>Montagem de Computadores</li>
+                            <li>Manutenção Preventiva</li>
+                            <li>Diagnóstico de Falhas</li>
+                            <li>Upgrade e Otimização</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="expertise-title">Software</h3>
+                        <ul class="expertise-list">
+                            <li>Desenvolvimento Python</li>
+                            <li>Sistemas IoT</li>
+                            <li>Análise de Dados</li>
+                            <li>Automação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="section-divider"></div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="skill-title">Hardware & Manutenção</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">Montagem de PCs</span>
+                        <span class="skill-tag">Diagnóstico de Hardware</span>
+                        <span class="skill-tag">Manutenção Preventiva</span>
+                        <span class="skill-tag">Substituição de Componentes</span>
+                        <span class="skill-tag">Otimização de Performance</span>
+                        <span class="skill-tag">Resolução de Problemas</span>
+                        <span class="skill-tag">Configuração de BIOS</span>
+                        <span class="skill-tag">Instalação de Drivers</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="skill-title">Software & Programação</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">IoT Development</span>
+                        <span class="skill-tag">Análise de Dados</span>
+                        <span class="skill-tag">Algoritmos</span>
+                        <span class="skill-tag">Git / GitHub</span>
+                        <span class="skill-tag">APIs</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Bancos de Dados</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="skill-title">IoT & Sistemas</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-tag">Sensores (DHT, etc.)</span>
+                        <span class="skill-tag">Arduino / ESP</span>
+                        <span class="skill-tag">Monitoramento</span>
+                        <span class="skill-tag">Automação</span>
+                        <span class="skill-tag">Dashboard</span>
+                        <span class="skill-tag">Visualização de Dados</span>
+                        <span class="skill-tag">Sistemas Embarcados</span>
+                        <span class="skill-tag">Protocolos IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="section-divider"></div>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-badge">IoT</div>
+                    <div class="project-image1"></div>
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-temperature-high"></i>
+                        </div>
+                        <h3 class="project-title">Monitoramento de Chocadeiras</h3>
+                        <p class="project-description">
+                            Sistema IoT completo com sensores DHT11, processamento local, dashboard em tempo real e alertas automáticos para incubação de quelônios.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge">Web</div>
+                    <div class="project-image2"></div>
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="project-title">Dashboard IoT</h3>
+                        <p class="project-description">
+                            Plataforma web para visualização e análise de dados de sensores IoT com gráficos interativos, histórico e relatórios automáticos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-badge">Algoritmos</div>
+                    <div class="project-image3"></div>
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="project-title">Biblioteca de Algoritmos</h3>
+                        <p class="project-description">
+                            Coleção de implementações otimizadas em C++ e Python com foco em eficiência e aplicação prática para programação competitiva.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Algoritmos</span>
+                            <span class="tech-tag">Estruturas</span>
+                            <span class="tech-tag">Matemática</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="hardware" class="hardware-projects">
+                <h2 class="section-title">Experiência em Hardware</h2>
+                <div class="section-divider"></div>
+                
+                <div class="hardware-card">
+                    <div class="hardware-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="hardware-content">
+                        <h3>Montagem e Manutenção de Computadores</h3>
+                        <p>
+                            Experiência prática na montagem completa de computadores desde a escolha dos componentes até a instalação final do sistema.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Montagem de PCs</span>
+                            <span class="tech-tag">Diagnóstico</span>
+                            <span class="tech-tag">Manutenção</span>
+                            <span class="tech-tag">Otimização</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contato & Projetos</h2>
+            <div class="section-divider"></div>
+            <div class="contact-content">
+                
+                <div class="contact-links">
+                    <a href="mailto:gabrielsilva69057@gmail.com" class="contact-link" id="emailLink" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/GabrielPymentel" target="_blank" class="contact-link" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabriel-pimentel-613302340/" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/5592993325803" class="contact-link" id="whatsappLink" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="https://www.instagram.com/sg_pimentel/" class="contact-link" id="instagramlink" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Gabriel Pimentel - Técnico em Informática</p>
+            <p class="footer-code">Aprendendo.</p>
+            <div class="footer-links">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#skills">Habilidades</a>
+                <a href="#projects">Projetos</a>
+                <a href="#hardware">Hardware</a>
+                <a href="#contact">Contato</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
